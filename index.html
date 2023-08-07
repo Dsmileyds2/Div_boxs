@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Box Model</title>
+    </head>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+        }
+        p {
+            margin: 0px;
+        }
+        #lorem-ipsum {
+            background-color: yellow;
+            padding: 20px;
+            border: 10px solid mediumblue;
+        }
+        #mid-box {
+            background-color: chocolate;
+            border: solid darkorchid;
+                border-width: 20px 10px;
+            margin-left: 260px;
+        }
+        #bottom-box {
+            background-color: maroon;
+            border: 10px solid;
+            margin-left: 40px;
+            text-align: center;
+        }
+        #pagelink {
+           color: white;
+           position: relative;
+           top: 80px; 
+        }
+    </style>
+    <body>
+        <div id="lorem-ipsum">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non tortor finibus, facilisis mauris vel, cursus arcu. Curabitur non nisl at lacus placerat rutrum quis a ipsum. In nec efficitur metus.</p>
+        </div>
+        <div id="mid-box">
+            <p>I added padding to get the text "centered" in box 1. <br/> I changed the border on box 2 to have different widths. <br/> I added a margin to boxes 2 & 3 so all 3 boxes corners are touching.</p>
+        </div>
+        <div id="bottom-box">
+            <a href="./memeBox.html" id="pagelink">MEME Page</a>
+        </div>
+        <footer>
+            <hr/>
+            <small>
+                Copyright &copy; 2023 DaJuan Smiley. All Rights Reserved.
+            </small> 
+        </footer>
+    </body>
+</html>

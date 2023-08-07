@@ -1,0 +1,23 @@
+#memestructure {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+footer {
+    color: white;
+}
+html {background-color: black;}
+img {
+    border: 5px solid white;
+    height: auto;
+    width: 100%;
+}
+#memetitle {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+#memecaption {
+    font-size: 25px;
+} 
